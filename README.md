@@ -1,4 +1,4 @@
-## Laragigs
+## laravel-sanctum-api
 
 By Md Naeem Uddin
 Software Engineer
@@ -7,23 +7,21 @@ Software Engineer
 
 Used [Laravel](https://laravel.com/docs/9.x) for local development.
 
-## About Project(Laragigs)
+## About Project(laravel-sanctum-api)
 
-It is a blog website. Here user can register, login, read gigs or create a new gigs. Auther can do edit own gigs. An auther can delete his/her own post if don't like to keep post in the post feed. Without authorize of a post, a post can't delete by an unauthorized user. In this project also implements: search gig, search by tags, pagination etc.
+create laravel simple product crud api with implementation of sanctum package for login and register.
 
-## Tools(Laragigs)
+## Tools(laravel-sanctum-api)
 
--   HTML
--   CSS
--   Tailwind-CSS
 -   PHP
 -   Laravel Framework
 -   MySQL database etc.
+-   Laravel sanctum package
 
 #### For a fresh installation of the project:
 
 -   Clone this project:
-    `git clone https://github.com/naeemchy/laragigs.git`
+    `git clone https://github.com/naeemchy/laravel-sanctum-api.git`
 
 -   Copy the `.env` by running this command:
     `cp .env.example .env`
@@ -40,10 +38,10 @@ The project can now be browsed from here: http://127.0.0.1:8000/
 ## Database Migration and Seed:
 
 Run following command to prepare the Database:
-`php artisan migrate:fresh --seed`
+`php artisan migrate`
 
 or,
-import `laragigs.sql` (which are provided in the root directory in this project source code) database in your local machine
+import `laravel-sanctum-api.sql` (which are provided in the root directory in this project source code) database in your local machine
 
 ## About Laravel
 
